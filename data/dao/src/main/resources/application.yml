@@ -3,12 +3,12 @@ spring:
     host: 139.180.198.99
     password: mixiu612
     port: 6380
-    timeout: 2000
+    timeout: 200
   datasource:
     url: jdbc:mysql://localhost:3306/pet_all?serverTimezone=GMT
     username: root
     password: p@swrd123
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update
